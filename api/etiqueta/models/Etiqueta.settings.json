@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "etiqueta",
+  "info": {
+    "name": "etiqueta",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "default": "",
+      "type": "string"
+    },
+    "multiple": {
+      "default": false,
+      "type": "boolean"
+    },
+    "opciones": {
+      "default": "opcion1, opcion2, opcion3",
+      "type": "text"
+    }
+  }
+}

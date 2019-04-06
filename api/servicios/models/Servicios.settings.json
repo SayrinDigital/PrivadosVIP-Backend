@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "servicios",
+  "info": {
+    "name": "servicios",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "default": "",
+      "type": "string"
+    },
+    "negocios": {
+      "collection": "negocio",
+      "via": "servicios"
+    },
+    "descripcion": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}
