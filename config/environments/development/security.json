@@ -6,9 +6,11 @@
   },
   "csp": {
     "enabled": false,
-    "policy": {
-      "default-src": "'self'"
-    }
+    "policy": [{
+        "img-src": "'self' http: data:"
+      },
+      "block-all-mixed-content"
+    ]
   },
   "p3p": {
     "enabled": false,
